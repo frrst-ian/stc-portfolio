@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import LoadingSpinner from "../ui/LoadingSpinner";
+import {LoadingSpinner} from "../ui/LoadingSpinner";
 import { CertificatesList } from "../ui/CertificatesList";
 import { CategoryFilter } from "../ui/CategoryFilter";
 import { certificates as certificatesData } from "../../data/certificates";
