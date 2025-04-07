@@ -1,9 +1,9 @@
 import { NavLink } from "react-router-dom";
+import './Navigation.css'
 
 export const Navigation = () => {
   return (
     <nav className="main-nav">
-      <h1> STC PortFolio</h1>
       <ul>
         <li>
           <NavLink

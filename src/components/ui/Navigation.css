@@ -1,0 +1,18 @@
+nav {
+    padding: 24px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 12px;
+    list-style-type: none;
+    width: 700px;
+    margin: auto;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
