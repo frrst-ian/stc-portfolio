@@ -8,17 +8,32 @@ export const HomePage = () => {
       <ParticlesComponent id="particles" />
       <section className="top">
         <h1 className="main-text">Special Topics in Computing Portfolio</h1>
-        <p>A curated list of my certificates from courses I finished. </p>
+        <p className="tagline">
+          A curated list of my certificates from courses I finished.{" "}
+        </p>
 
         <div className="btn-container">
-          <button className="btn primary cert"><span>My certificates</span></button>
-          <button className="btn primary github"><span>View on github</span></button>
+          <button className="btn primary cert">
+            <span>
+              <a href="/certificates" rel="noreferrer" target="_blank">
+                My certificates
+              </a>
+            </span>
+          </button>
+          <button className="btn primary github">
+            <span>
+              <a href="https://github.com/frrst-ian/stc-portfolio">
+                View on github
+              </a>
+            </span>
+          </button>
         </div>
 
         <div className="cards">
           <div className="card">
             <p>
-              10 <br />earned certificates
+              10 <br />
+              earned certificates
             </p>
           </div>
           <div className="card">

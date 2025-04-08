@@ -39,11 +39,12 @@ small {
 }
 
 :root {
-  --text: #eeebf5;
-  --background: #06040b;
-  --primary: #9bc2d6;
-  --secondary: #295b76;
-  --accent: #61aad1;
+  --text: hsl(198, 32%, 92%);
+--background: hsl(195, 40%, 2%);
+--primary: hsl(200, 42%, 72%);
+--secondary: hsl(201, 48%, 31%);
+--accent: hsl(201, 55%, 60%);
+
 }
 
 body {
