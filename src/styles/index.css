@@ -41,9 +41,9 @@ small {
 :root {
   --text: #eeebf5;
   --background: #06040b;
-  --primary: #ab91e8;
-  --secondary: #330e8c;
-  --accent: #520bfe;
+  --primary: #9bc2d6;
+  --secondary: #295b76;
+  --accent: #61aad1;
 }
 
 body {
@@ -53,4 +53,13 @@ body {
   color: var(--text);
   font-family: "Fragment Mono";
   font-weight: 400;
+}
+
+.particles-canvas {
+  position: absolute !important;
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  z-index: 0 !important;
 }
