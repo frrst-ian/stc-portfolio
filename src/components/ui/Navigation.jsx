@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import './Navigation.css'
+import "./Navigation.css";
 
 export const Navigation = () => {
   return (
@@ -16,20 +16,20 @@ export const Navigation = () => {
         </li>
         <li>
           <NavLink
-            to="/about"
-            end
-            className={({ isActive }) => (isActive ? "active" : "")}
-          >
-            About
-          </NavLink>
-        </li>
-        <li>
-          <NavLink
             to="/certificates"
             end
             className={({ isActive }) => (isActive ? "active" : "")}
           >
             Certificates
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to="/about"
+            end
+            className={({ isActive }) => (isActive ? "active" : "")}
+          >
+            About
           </NavLink>
         </li>
       </ul>
