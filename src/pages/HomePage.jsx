@@ -1,14 +1,22 @@
 import React from "react";
 import "./HomePage.css";
 import ParticlesComponent from "../components/ui/ParticlesBackground";
-import {GoTop} from "../components/ui/GoTop";
+import { GoTop } from "../components/ui/GoTop";
 
 export const HomePage = () => {
   return (
     <main className="home">
       <ParticlesComponent id="particles" />
       <section className="top">
-        <h1 className="main-text">Special Topics in Computing Portfolio</h1>
+        <h1 className="main-text">
+          Special Topics in Computing Portfolio
+          <div className="aurora">
+            <div className="aurora__item"></div>
+            <div className="aurora__item"></div>
+            <div className="aurora__item"></div>
+            <div className="aurora__item"></div>
+          </div>
+        </h1>
         <p className="tagline">
           A curated list of my certificates from courses I finished.{" "}
         </p>
