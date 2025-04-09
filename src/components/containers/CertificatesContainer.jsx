@@ -55,8 +55,6 @@ export const CertificatesContainer = () => {
 
   return (
     <main className="certificates-container">
-      <h1>My Certificates</h1>
-
       {!selectedCategory && (
         <CategoriesList
           categories={categories}
