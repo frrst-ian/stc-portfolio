@@ -31,13 +31,14 @@ export const HomePage = () => {
 
         <div className="cards">
           <div className="card">
-            <p>
-              10 <br />
-              earned certificates
-            </p>
+            <p>icon</p>
+            <p className="text big">10</p>
+            <p className="text small">Certificates</p>
           </div>
           <div className="card">
-            28+ <br /> hours of effort
+            <p>icon</p>
+            <p className="text big">28+</p>
+            <p className="text small">Hours of Effort</p>
           </div>
         </div>
       </section>
@@ -61,13 +62,51 @@ export const HomePage = () => {
       </section>
 
       <section className="last">
-        <div className="company-cards">
-          <div className="company">Cisco</div>
-          <div className="company">Amazon</div>
-          <div className="company">Matlab</div>
-          <div className="company">freeCodeCamp</div>
-        </div>
         <h3>Issued by different companies</h3>
+        <div className="company-cards">
+          <div className="company">
+            <img
+              className="company-icon"
+              src="src/assets/icons/cisco-svgrepo-com.svg"
+              alt="Cisco logo"
+            />
+
+            <p className="company-text">Cisco</p>
+          </div>
+          <div className="company">
+            <img
+              className="company-icon"
+              src="src/assets/icons/amazon-svgrepo-com.png"
+              alt="Amazon logo"
+            />
+            <p className="company-text">Amazon</p>
+          </div>
+          <div className="company">
+            <img
+              className="company-icon"
+              src="src/assets/icons/freecodecamp-svgrepo-com.svg"
+              alt="freeCodeCamp logo"
+            />
+            <p className="company-text">freeCodeCamp</p>
+          </div>
+          <div className="company">
+            <img
+              className="company-icon"
+              src="src/assets/icons/mathworks-svgrepo-com.svg"
+              alt="freeCodeCamp logo"
+            />
+            <p className="company-text">Mathworks</p>
+          </div>
+          <div className="company">
+            <img
+              className="company-icon"
+              src="src/assets/icons/kaggle-svgrepo-com.svg      "
+              alt="Kaggle logo"
+            />
+
+            <p className="company-text">Kaggle</p>
+          </div>
+        </div>
       </section>
 
       <footer>
@@ -75,7 +114,11 @@ export const HomePage = () => {
           <p>Copyright © 2025 Ian Forrest Rogel</p>
         </div>
         <div className="socials">
-          <div className="socials-icon"></div>
+          <div className="socials-icon">
+            <p>fb</p>
+            <p>github</p>
+            <p>proton</p>
+          </div>
         </div>
       </footer>
     </main>
