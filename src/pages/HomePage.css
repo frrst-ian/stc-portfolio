@@ -51,14 +51,14 @@ button.btn {
   display: flex;
   gap: 40px;
   text-align: center;
-  margin-top: 200px;
+  margin-top: 140px;
+  min-height: 140px;
 }
 
 .card {
   border: 2px solid transparent;
-  padding: 12px;
   min-width: 220px;
-  height: 140px;
+  height: 180px;
   position: relative;
   background-color: hsl(201, 48%, 21%);
   padding: 1em;
@@ -71,6 +71,11 @@ button.btn {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+img.card-icon {
+  height: 50px;
+  margin-bottom: 12px;
 }
 
 .middle > h2 {

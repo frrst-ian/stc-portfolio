@@ -31,12 +31,20 @@ export const HomePage = () => {
 
         <div className="cards">
           <div className="card">
-            <p>icon</p>
+            <img
+              src="src/assets/icons/certificate-check-svgrepo-com.svg"
+              alt="Certificate Icon"
+              className="card-icon"
+            />
             <p className="text big">10</p>
             <p className="text small">Certificates</p>
           </div>
           <div className="card">
-            <p>icon</p>
+            <img
+              src="src/assets/icons/time-sand-svgrepo-com.svg"
+              alt="Time Sand Icon"
+              className="card-icon"
+            />
             <p className="text big">28+</p>
             <p className="text small">Hours of Effort</p>
           </div>
