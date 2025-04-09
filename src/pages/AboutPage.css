@@ -1,0 +1,23 @@
+@import "../styles/index.css";
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 40px 0px 80px 0px;
+  color: var(--text);
+}
+
+.text-wrapper {
+  width: 650px;
+  padding: 32px;
+  margin: auto;
+  border-radius: 30px;
+  background: #212121;
+  box-shadow: 15px 15px 30px rgb(25, 25, 25), -15px -15px 30px rgb(60, 60, 60);
+}
+
+p.about-text {
+  text-align: left;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  line-height: 1.8;
+}
