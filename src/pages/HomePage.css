@@ -11,7 +11,7 @@ main.home {
 }
 
 h1.main-text {
-  font-size: 2.4rem;
+  font-size: 2.7rem;
   text-align: center;
   position: relative;
 }
@@ -71,6 +71,13 @@ button.btn {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 0 12px #d9d9d9, 0 0 12px var(--primary);
+  transform: scale(1.1);
 }
 
 img.card-icon {
@@ -100,6 +107,8 @@ img.card-icon {
   height: 350px;
   object-fit: contain;
   border: 2px solid white;
+  cursor: pointer;
+  border-radius: 6px;
 }
 
 button.github {
@@ -167,7 +176,7 @@ section.last {
 .company-cards {
   display: flex;
   justify-content: space-evenly;
-  margin-bottom: 24px;
+  margin-bottom: 120px;
 }
 
 .company {
@@ -193,7 +202,8 @@ p.company-text {
 }
 
 section.last {
-  margin: 200px 0px 200px 0px;
+  margin: 122px 0px 100px 0px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.264);
 }
 
 section.last h3 {
@@ -210,3 +220,27 @@ footer {
   gap: 24px;
   justify-content: center;
 }
+
+.socials-icon {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+  width: 150px;
+}
+
+img.fb-icon {
+  height: 45px;
+}
+
+.socials {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.socials > p {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+

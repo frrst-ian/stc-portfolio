@@ -40,11 +40,19 @@ small {
 
 :root {
   --text: hsl(198, 32%, 92%);
---background: hsl(195, 40%, 2%);
---primary: hsl(200, 42%, 72%);
---secondary: hsl(201, 48%, 31%);
---accent: hsl(201, 55%, 60%);
+  --background: hsl(195, 40%, 2%);
+  --primary: hsl(200, 42%, 72%);
+  --secondary: hsl(201, 48%, 31%);
+  --accent: hsl(201, 55%, 60%);
+  --bg: #000000;
+  --clr-1: #00c2ff;
+  --clr-2: #33ff8c;
+  --clr-3: #ffc640;
+  --clr-4: #e54cff;
 
+  --blur: 1rem;
+  --fs: clamp(3rem, 8vw, 7rem);
+  --ls: clamp(-1.75px, -0.25vw, -3.5px);
 }
 
 body {
