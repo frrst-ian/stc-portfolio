@@ -1,0 +1,19 @@
+button.back-button {
+  margin: 20px;
+}
+
+.btn-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+h3.cert-title-txt {
+  cursor: pointer;
+}
+
+h3.cert-title-txt:hover {
+  transition: 0.3s ease-in-out;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}

@@ -24,7 +24,7 @@ export const HomePage = () => {
         <div className="btn-container">
           <button className="btn primary cert">
             <span>
-              <a href="/certificates" rel="noreferrer" target="_blank">
+              <a href="/certificates" rel="noreferrer">
                 My certificates
               </a>
             </span>

@@ -4,6 +4,7 @@ import { CertificateTitlesList } from "../ui/CertificateTitlesList";
 import { CertificateCard } from "../ui/CertificateCard";
 import { LoadingSpinner } from "../ui/LoadingSpinner";
 import { certificates as certificatesData } from "../../data/certificates";
+import { Button } from "../ui/Button";
 
 export const CertificatesContainer = () => {
   // State management
@@ -12,7 +13,7 @@ export const CertificatesContainer = () => {
   const [selectedCategory, setSelectedCategory] = useState(null);
   const [selectedCertificate, setSelectedCertificate] = useState(null);
 
-  useEffect(() => { 
+  useEffect(() => {
     const fetchCertificates = async () => {
       setIsLoading(true);
       try {
@@ -64,10 +65,9 @@ export const CertificatesContainer = () => {
 
       {selectedCategory && !selectedCertificate && (
         <>
-          <button onClick={handleBackToCategories} className="back-button">
+          <Button onClick={handleBackToCategories}>
             &larr; Back to Categories
-          </button>
-          <h2>{selectedCategory} Certificates</h2>
+          </Button>
           <CertificateTitlesList
             certificates={categoryTitles}
             onSelectCertificate={(id) => setSelectedCertificate(id)}
@@ -77,9 +77,11 @@ export const CertificatesContainer = () => {
 
       {selectedCertificate && certificateDetails && (
         <>
-          <button onClick={handleBackToTitles} className="back-button">
+          <Button onClick={handleBackToTitles}>
+            {" "}
             &larr; Back to {selectedCategory} Certificates
-          </button>
+          </Button>
+
           <CertificateCard certificate={certificateDetails} />
         </>
       )}

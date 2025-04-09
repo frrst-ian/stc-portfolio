@@ -1,0 +1,36 @@
+.certificate-card-full {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+img.certificate-image {
+  width: 780px;
+  object-fit: contain;
+}
+
+.certificate-content {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  gap: 24px;
+  margin-bottom: 80px;
+  padding: 16px;
+}
+
+h2.cert-title {
+  font-size: 1.8rem;
+}
+.course-link {
+  padding: 16px;
+  width: 150px;
+}
+
+.issuer {
+  font-size: 1.1rem;
+}
+.description {
+  font-size: 1.2rem;
+}

@@ -1,4 +1,5 @@
 import React from 'react';
+import './CertificateTitlesList.css';
 
 export const CertificateTitlesList = ({ certificates, onSelectCertificate }) => {
     return (
@@ -13,7 +14,7 @@ export const CertificateTitlesList = ({ certificates, onSelectCertificate }) => 
                             onClick={() => onSelectCertificate(cert.id)}
                             className="certificate-title-item"
                         >
-                            <h3>{cert.title}</h3>
+                            <h3 className="cert-title-txt">{cert.title}</h3>
                         </li>
                     ))}
                 </ul>
