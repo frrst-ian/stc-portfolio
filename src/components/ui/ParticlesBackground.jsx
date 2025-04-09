@@ -59,7 +59,7 @@ const ParticlesComponent = (props) => {
             duration: 15,
           },
           grab: {
-            distance: 150,
+            distance: 200,
           },
         },
       },
@@ -71,8 +71,8 @@ const ParticlesComponent = (props) => {
           color: "#eeebf5",
           distance: 150,
           enable: true,
-          opacity: 0.3,
-          width: 1,
+          opacity: 0.5,
+          width: 1.1,
         },
         move: {
           direction: "none",
@@ -88,7 +88,7 @@ const ParticlesComponent = (props) => {
           density: {
             enable: true,
           },
-          value: 150,
+          value: 200,
         },
         opacity: {
           value: 1.0,
