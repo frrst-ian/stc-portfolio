@@ -1,4 +1,4 @@
-@import "src/styles/index.css";
+@import "/src/styles/index.css";
 nav {
   padding-top: 12px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.21);
