@@ -21,11 +21,6 @@ Click here: [https://stc-certificates.netlify.app](https://stc-certificates.netl
 <img src='/public/screenshots/740_1x_shots_so.png' alt='Screenshot of desktop design'>
 </div>
 
-## Features
-
-- Clean UI
-- View all certificates
-
 ## Technologies Used
 
 - ReactJs
