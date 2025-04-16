@@ -28,9 +28,7 @@ h2.cert-title {
   width: 150px;
 }
 
-.issuer {
-  font-size: 1.1rem;
-}
+.issuer,
 .description {
   font-size: 1.2rem;
 }

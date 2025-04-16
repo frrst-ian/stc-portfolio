@@ -17,3 +17,8 @@ h3.cert-title-txt:hover {
   text-decoration: underline;
   text-underline-offset: 4px;
 }
+
+.titles-list{
+  flex-direction: column;
+  align-items: center;
+}

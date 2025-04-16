@@ -92,13 +92,13 @@ export const certificates = [
     },
     {
         id: 9,
-        title: 'Machine Learning on Ramp',
+        title: 'Machine Learning Onramp',
         issuer: 'MathWorks',
         category: 'Artificial Intelligence',
         desc: 'This intensive course from MathWorks tackles the step-by-step procedure/process of training a machine learning model. Through the use of MATLAB programming language, a high-level language used by engineers and scientists, I’ve learned the basics of practical machine learning for classification problems using real-world data. To summarize, this course taught me how to train, validate, and improve machine learning models.',
         link: 'https://matlabacademy.mathworks.com/details/machine-learning-onramp/machinelearning',
         imageUrl: mlOnrampImg,
-        imageAlt: 'Machine Learning On ramp Certificate'
+        imageAlt: 'Machine Learning Onramp Certificate'
     },
     {
         id: 10,
