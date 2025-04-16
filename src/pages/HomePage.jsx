@@ -1,20 +1,16 @@
 import React from "react";
 import "./HomePage.css";
 import ParticlesComponent from "../components/ui/ParticlesBackground";
-import kaggle from '../assets/icons/kaggle-svgrepo-com.svg'
-import certificateCheck from '../assets/icons/cert.svg'
-import timeSand from '../assets/icons/time-sand-svgrepo-com.svg'
-import amazon from '../assets/icons/amazon.png';
-import cisco from '../assets/icons/cisco.svg'
-import freeCodeCamp from '../assets/icons/freecode.svg'
-import mathWorks from '../assets/icons/mathworks.svg'
-import cyberSecImg from '../assets/images/cybersecurity.png';
-import dataVizImg from '../assets/images/data-viz.png';
-
-
-
-
-
+import kaggle from "../assets/icons/kaggle-svgrepo-com.svg";
+import certificateCheck from "../assets/icons/cert.svg";
+import timeSand from "../assets/icons/time-sand-svgrepo-com.svg";
+import amazon from "../assets/icons/amazon.png";
+import cisco from "../assets/icons/cisco.svg";
+import freeCodeCamp from "../assets/icons/freecode.svg";
+import mathWorks from "../assets/icons/mathworks.svg";
+import cyberSecImg from "../assets/images/cybersecurity.png";
+import dataVizImg from "../assets/images/data-viz.png";
+import { NavLink } from "react-router-dom";
 
 import { GoTop } from "../components/ui/GoTop";
 
@@ -39,9 +35,13 @@ export const HomePage = () => {
         <div className="btn-container">
           <button className="btn primary cert">
             <span>
-              <a href="/certificates" rel="noreferrer">
-                My certificates
-              </a>
+              <NavLink
+                to="/certificates"
+                end
+                className={({ isActive }) => (isActive ? "active" : "")}
+              >
+                My Certificates
+              </NavLink>
             </span>
           </button>
           <button className="btn primary github">
@@ -67,11 +67,7 @@ export const HomePage = () => {
             <p className="text small">Certificates</p>
           </div>
           <div className="card">
-            <img
-            src={timeSand}
-              alt="Time Sand Icon"
-              className="card-icon"
-            />
+            <img src={timeSand} alt="Time Sand Icon" className="card-icon" />
             <p className="text big">28+</p>
             <p className="text small">Hours of Effort</p>
           </div>
@@ -82,10 +78,7 @@ export const HomePage = () => {
         <h2>Top Certificates</h2>
         <div className="top-certs-wrapper">
           <div className="top-certs">
-            <img
-              src={cyberSecImg}
-              alt="cisco cybersecurity certificate"
-            />
+            <img src={cyberSecImg} alt="cisco cybersecurity certificate" />
           </div>
           <div className="top-certs">
             <img
@@ -101,20 +94,12 @@ export const HomePage = () => {
         <h3>Issued by different companies</h3>
         <div className="company-cards">
           <div className="company">
-            <img
-              className="company-icon"
-              src={cisco}
-              alt="Cisco logo"
-            />
+            <img className="company-icon" src={cisco} alt="Cisco logo" />
 
             <p className="company-text">Cisco</p>
           </div>
           <div className="company">
-            <img
-              className="company-icon"
-              src={amazon}
-              alt="Amazon logo"
-            />
+            <img className="company-icon" src={amazon} alt="Amazon logo" />
             <p className="company-text">Amazon</p>
           </div>
           <div className="company">
@@ -134,11 +119,7 @@ export const HomePage = () => {
             <p className="company-text">Mathworks</p>
           </div>
           <div className="company">
-            <img
-              className="company-icon"
-              src={kaggle}
-              alt="Kaggle logo"
-            />
+            <img className="company-icon" src={kaggle} alt="Kaggle logo" />
 
             <p className="company-text">Kaggle</p>
           </div>
