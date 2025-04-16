@@ -44,7 +44,7 @@ export const HomePage = () => {
         <div className="cards">
           <div className="card">
             <img
-              src="src/assets/icons/certificate-check-svgrepo-com.svg"
+              src="https://res.cloudinary.com/ddpm0zrxl/image/upload/v1744781476/certificate-check-svgrepo-com_wzpmvk.svg"
               alt="Certificate Icon"
               className="card-icon"
             />
@@ -53,7 +53,7 @@ export const HomePage = () => {
           </div>
           <div className="card">
             <img
-              src="src/assets/icons/time-sand-svgrepo-com.svg"
+              src="https://res.cloudinary.com/ddpm0zrxl/image/upload/v1744781476/time-sand-svgrepo-com_envgyu.svg"
               alt="Time Sand Icon"
               className="card-icon"
             />
@@ -68,13 +68,13 @@ export const HomePage = () => {
         <div className="top-certs-wrapper">
           <div className="top-certs">
             <img
-              src="src/assets/images/cybersecurity.png"
+              src="https://res.cloudinary.com/ddpm0zrxl/image/upload/v1744781296/cybersecurity_ly6eh1.png"
               alt="cisco cybersecurity certificate"
             />
           </div>
           <div className="top-certs">
             <img
-              src="src/assets/images/data-viz.png"
+              src="https://res.cloudinary.com/ddpm0zrxl/image/upload/v1744781296/data-viz_scwbfg.png"
               alt="freeCodeCamp data visualization certificate"
             />
           </div>
@@ -88,7 +88,7 @@ export const HomePage = () => {
           <div className="company">
             <img
               className="company-icon"
-              src="src/assets/icons/cisco-svgrepo-com.svg"
+              src="https://res.cloudinary.com/ddpm0zrxl/image/upload/v1744781476/cisco-svgrepo-com_i1ryiq.svg"
               alt="Cisco logo"
             />
 
@@ -97,7 +97,7 @@ export const HomePage = () => {
           <div className="company">
             <img
               className="company-icon"
-              src="src/assets/icons/amazon-svgrepo-com.png"
+              src="https://res.cloudinary.com/ddpm0zrxl/image/upload/v1744781479/amazon-svgrepo-com_kqgnyp.png"
               alt="Amazon logo"
             />
             <p className="company-text">Amazon</p>
@@ -105,7 +105,7 @@ export const HomePage = () => {
           <div className="company">
             <img
               className="company-icon"
-              src="src/assets/icons/freecodecamp-svgrepo-com.svg"
+              src="https://res.cloudinary.com/ddpm0zrxl/image/upload/v1744781478/freecodecamp-svgrepo-com_goid4h.svg"
               alt="freeCodeCamp logo"
             />
             <p className="company-text">freeCodeCamp</p>
@@ -113,7 +113,7 @@ export const HomePage = () => {
           <div className="company">
             <img
               className="company-icon"
-              src="src/assets/icons/mathworks-svgrepo-com.svg"
+              src="https://res.cloudinary.com/ddpm0zrxl/image/upload/v1744781479/mathworks-svgrepo-com_cpyzhe.svg"
               alt="freeCodeCamp logo"
             />
             <p className="company-text">Mathworks</p>
@@ -121,7 +121,7 @@ export const HomePage = () => {
           <div className="company">
             <img
               className="company-icon"
-              src="src/assets/icons/kaggle-svgrepo-com.svg      "
+              src={"/public/icons/mathworks-svgrepo-com.svg"}
               alt="Kaggle logo"
             />
 
