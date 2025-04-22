@@ -12,13 +12,27 @@ h3.cert-title-txt {
   cursor: pointer;
 }
 
-h3.cert-title-txt:hover {
-  transition: 0.3s ease-in-out;
-  text-decoration: underline;
-  text-underline-offset: 4px;
+@media (hover: hover) {
+  h3.cert-title-txt:hover {
+    transition: 0.3s ease-in-out;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+  }
 }
 
 .titles-list{
   flex-direction: column;
   align-items: center;
+}
+
+@media (max-width:480px) {
+  ul.titles-list {
+    min-width: 500px;
+  }
+
+  h3 {
+    font-size: 1em;
+  }
+
+ 
 }

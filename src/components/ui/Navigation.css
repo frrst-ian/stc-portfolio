@@ -41,20 +41,35 @@ li > a::after {
   transition: opacity 0.5s;
 }
 
-li > a:hover {
-  color: var(--text);
+@media (hover: hover) {
+  li > a:hover {
+    color: var(--text);
+  }
+  
+  li > a:hover::after {
+    opacity: 1;
+    animation: shimmer111 2s linear infinite;
+  }
+  
+  @keyframes shimmer111 {
+    0% {
+      background-position: 200% 0;
+    }
+    100% {
+      background-position: -200% 0;
+    }
+  }
 }
 
-li > a:hover::after {
-  opacity: 1;
-  animation: shimmer111 2s linear infinite;
-}
 
-@keyframes shimmer111 {
-  0% {
-    background-position: 200% 0;
-  }
-  100% {
-    background-position: -200% 0;
-  }
+
+
+@media (max-width:480px) {
+ ul {
+  max-width: 100px;
+ }
+
+ nav {
+  height:4.5em;
+ }
 }

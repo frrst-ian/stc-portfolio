@@ -21,3 +21,25 @@ p.about-text {
   letter-spacing: 1px;
   line-height: 1.8;
 }
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.8em;
+  }
+
+  .text-wrapper {
+    width: 420px;
+    padding: 32px;
+    margin: auto;
+    border-radius: 30px;
+    background: var(--background);
+    box-shadow: 15px 15px 30px rgb(25, 25, 25), -15px -15px 30px rgb(60, 60, 60);
+  }
+
+  p.about-text {
+    text-align: left;
+    font-size: 1em;
+    letter-spacing: 1px;
+    line-height: 1.8;
+  }
+}

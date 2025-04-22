@@ -1,54 +1,61 @@
-@import '/src/styles/index.css';
+@import "/src/styles/index.css";
 .header-txt {
-    font-size: 2.5rem;
-    text-align: center;
-    margin: 40px 40px;
-    color: var(--text);
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 40px 40px;
+  color: var(--text);
 }
 
 .category-grid {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    align-items: center;
-    text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  text-align: left;
 }
 
 .category-btn {
- padding: 0.8em 1.8em;
- border: 2px solid var(--accent);
- position: relative;
- overflow: hidden;
- background-color: transparent;
- text-align: center;
- text-transform: uppercase;
- font-size: 16px;
- transition: .3s;
- z-index: 1;
- font-family: inherit;
- color: var(--accent);
- min-width: 300px;
+  padding: 0.8em 1.8em;
+  border: 2px solid var(--accent);
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  transition: 0.3s;
+  z-index: 1;
+  font-family: inherit;
+  color: var(--accent);
+  min-width: 300px;
 }
 
 .category-btn::before {
-    content: '';
-    width: 0;
-    height: 600%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) rotate(45deg);
-    background: var(--accent);
-    transition: .5s ease;
-    display: block;
-    z-index: -1;
-   }
-   
-   .category-btn:hover::before {
+  content: "";
+  width: 0;
+  height: 600%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: var(--accent);
+  transition: 0.5s ease;
+  display: block;
+  z-index: -1;
+}
+
+@media (hover: hover) {
+  .category-btn:hover::before {
     width: 105%;
-   }
-   
-   .category-btn:hover {
+  }
+
+  .category-btn:hover {
     color: #111;
-   }
-   
+  }
+}
+
+@media (max-width: 480px) {
+  .header-txt {
+    font-size: 1.7em;
+  }
+}

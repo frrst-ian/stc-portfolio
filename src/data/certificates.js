@@ -72,7 +72,7 @@ export const certificates = [
     },
     {
         id: 7,
-        title: 'Fundamentals of Machine Learning and Artificial Intelligence',
+        title: 'Fundamentals of Machine Learning and AI',
         issuer: 'Amazon',
         category: 'Artificial Intelligence',
         desc: 'Through this course from AWS Skill Builder, I explored the connections between the different branches of AI  and the possible real-life application of this emerging technology. Further, I also engaged in some AWS Infrastructure and Technologies used in the Artificial Intelligence industry. Overall, I’ve gained practical insights from this course that will enable me to understand the basic concepts of AI, ML, and deep learning.',

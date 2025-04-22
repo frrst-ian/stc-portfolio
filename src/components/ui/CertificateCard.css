@@ -32,3 +32,28 @@ h2.cert-title {
 .description {
   font-size: 1.2rem;
 }
+
+@media (max-width: 480px) {
+  h2.cert-title {
+    font-size: 1.6em;
+    text-align: center;
+  }
+
+  .certificate-image {
+    padding: 24px;
+  }
+
+  .certificate-content {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    gap: 12px;
+    margin-bottom: 80px;
+    padding: 12px;
+  }
+
+  .issuer,
+  .description {
+    font-size: 1em;
+  }
+}

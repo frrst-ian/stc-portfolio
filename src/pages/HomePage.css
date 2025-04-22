@@ -183,7 +183,6 @@ h1.main-text {
   }
 }
 
-
 #particles canvas {
   position: absolute;
 }
@@ -411,3 +410,84 @@ img.fb-icon {
   margin-bottom: 30px;
 }
 
+@media (max-width: 480px) {
+  section.top {
+    margin-top: 100px;
+  }
+
+  h1.main-text {
+    font-size: 1.8em;
+  }
+  p.tagline {
+    font-size: 1em;
+  }
+
+  .cards {
+    gap: 12px;
+    text-align: center;
+    margin-top: 70px;
+    min-height: 140px;
+  }
+
+  .card {
+    min-width: 200px;
+    height: 140px;
+  }
+
+  .card:hover {
+    box-shadow:none;
+    transform: none;
+  }
+  
+  img.card-icon {
+    height: 40px;
+  }
+
+  p.text.big {
+    font-size: 1.3em;
+  }
+
+  p.text.small {
+    font-size: 1em;
+  }
+
+  section.middle {
+    margin-top: 74px;
+  }
+
+  section.middle > h2 {
+    font-size: 1.7em;
+  }
+
+  .top-certs-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 12px;
+    padding: 50px;
+    flex-direction: column;
+  }
+
+  section.last {
+    margin-top: 40px;
+  }
+
+  section.last h3 {
+    font-size: 1.7em;
+  }
+
+  .company-cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 120px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .company {
+    min-width: 300px;
+  }
+}
+
+@media (max-width: 960px) {
+}
